@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="font-outfit">
+    <main class="max-w-[450px] m-auto h-[100vh] bg-[#F4F5F7] px-[24px] flex  justify-center items-center">
+        <section class="flex-1">
+            <div class="bg-[url(./assets/bg.png)] bg-no-repeat bg-cover h-[150px] w-[350px] mx-auto">
+                <img class="mx-auto pt-[30px]" src="./assets/Group.png" alt="">
+            </div>
+
+            <div class="bg-white p-[32px] rounded-[24px]">
+                <form action="">
+                   <div>
+                     <label class="font-medium text-[#080808]" for="moble-number">Mobile Number</label>
+                    <br>
+                    <input id="login-mobile-number" type="text" placeholder="Enter your number" class=" w-full bg-[#F4F5F7] rounded-[32px] py-[16px] px-[30px] placeholder:text-gray-500 focus:outline-none border-none mt-[10px] mb-[16px] " />
+                   </div>
+
+                   <div>
+                     <label class="font-medium text-[#080808]" for="moble-number">4 Digit Pin</label>
+                    <br>
+                    <input id="login-pin" type="text" placeholder="Enter 4 Digit Pin" class=" w-full bg-[#F4F5F7] rounded-[32px] py-[16px] px-[30px] placeholder:text-gray-500 focus:outline-none border-none mt-[10px] mb-[16px] " />
+                   </div>
+                   <button id="login-btn" class=" bg-[#0874F2] py-[16px] rounded-[32px] w-full text-white text-[20px] font-semibold cursor-pointer">Login</button>
+
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
